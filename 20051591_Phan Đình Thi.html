@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="wight=device-wight, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0px; margin: auto;}
+        .wrapper{width: 1089px; height: 800px;background-color: antiquewhite;}
+        header{width: 1089px; height: 150px;background-color: rgb(80, 150, 117);}
+        nav{width: 1089px; height: 50px;background-color: rgb(67, 127, 167);}
+        .content{width: 1089px; height: 500px;background-color: rgb(113, 170, 47);}
+        footer{width: 1089px; height: 100px;background-color: rgb(172, 143, 89);}
+        aside{width: 35%; height: 100%;background-color: rgb(72, 126, 177);float: left;}
+        section{width: 65%px; height: 100%;background-color: rgb(173, 121, 185);float: left;}
+        .menu li{width: 150px; float: left; line-height: 50px; list-style: none;text-indent: 10px;
+            background-color: bisque; position: relative;}
+        li a{text-decoration: none; font-weight: bold; color:blue;}
+        li:hover{background-color: blue;}
+        li:hover>a{color: yellow; font-style: italic;}
+        li .sub-menu{ display: none; position: absolute;}
+        li:hover>.sub-menu{display: block;}
+        li .sub-menu li:hover>.sub-menu{top: 0px; left: 150px;}
+    </style>
+</head>
+<body>
+    <div class="wrapper ">
+        <header>
+            TRANG MUA SẮM ONLINE
+        </header>
+        <nar>
+            <ul class ="menu">
+                <li><a href="banhang.com.vn">TRANG CHỦ</a></li>
+                <li><a href="#">DỊCH VỤ</a>
+                    <ul class ="sub-menu">
+                        <li><a href ="#">MUA SẮM</a></li>
+                        <li><a href ="#">THANH TOÁN</a>
+                            <ul class ="sub-menu">
+                                <li><a href ="#">ZaloPay</a></li>
+                                <li><a href ="#">MoMo</a></li>
+                                <li><a href ="#">PayPal</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PHẢN HỒI</a></li>   
+                    </ul>
+                </li>
+                <li><a href="#">TÌM KIẾM</a></li>
+                <li><a href="#">THÔNG TIN</a></li>
+                <li><a href="#">PHẢN HỒI</a></li>
+                
+            </ul>
+        </nar>
+        <div class = "content">
+            <aside>
+
+
+            </aside>
+
+            <section>
+
+
+            </section>
+        </div>
+        <footer>
+            CHÂN THÀNH CẢM ƠN QUÝ KHÁCH ĐÃ TIN TƯỞNG SỬ DỤNG DỊCH VỤ CỦA CHÚNG TÔI!
+        </footer>
+    </div>
+
+</body>
+</html>
